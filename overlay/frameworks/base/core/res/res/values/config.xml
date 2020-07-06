@@ -398,5 +398,7 @@
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
+    <!-- Enable pocket mode -->
+    <bool name="config_proxiSensorWakupCheck">true</bool> 
 </resources>
 
