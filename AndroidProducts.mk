@@ -13,4 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_raphael.mk
+    $(LOCAL_DIR)/wrath_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    wrath_raphael-user \
+    wrath_raphael-userdebug \
+    wrath_raphael-eng
